@@ -1,4 +1,4 @@
-(library (kanren)
+(library (ukanren)
   (export == conde failure fresh ifte once run stream->list stream-take success)
   (import (chezscheme) (stream))
   (define (var id) (vector 'var id))
